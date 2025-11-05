@@ -3,11 +3,11 @@ using namespace std;
 
 int main(){
     // Deklarasi
-    int totaldetik, jam, menit, detik;
-    // Input nilai totaldetik
-    cout << "Masukkan bilangan > 1 (satuan detik)    : "; cin >> totaldetik;
-        if(totaldetik>1){
-            detik = totaldetik;
+    int detikawal, jam, menit, detik;
+    // Input nilai detikawal
+    cout << "Masukkan bilangan > 1 (satuan detik)    : "; cin >> detikawal;
+        if(detikawal>1){
+            detik = detikawal;
             // Inisialisasi var.jam
             jam = detik/3600; 
             detik %= 3600;
@@ -16,7 +16,7 @@ int main(){
             detik %= 60; // sisa detik
             // Print output
             cout << "Hasil Konversi : " << endl;
-            cout << totaldetik << " detik    = " << jam << " Jam, " << menit << " Menit, " << detik << " Detik.";
+            cout << detikawal << " detik    = " << jam << " Jam, " << menit << " Menit, " << detik << " Detik.";
         } else {
             cout << "Bilangan harus > 1 !" << endl;
         }
