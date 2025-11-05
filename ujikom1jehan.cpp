@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
     // Deklarasi
-    int detikawal, jam, menit, detik;
+    long long int detikawal, jam, menit, detik;
     // Input nilai detikawal
     cout << "Masukkan bilangan > 1 (satuan detik)    : "; cin >> detikawal;
         if(detikawal>1){
